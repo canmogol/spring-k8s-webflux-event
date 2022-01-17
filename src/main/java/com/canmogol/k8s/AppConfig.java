@@ -1,4 +1,4 @@
-package com.canmogol.k8s.config;
+package com.canmogol.k8s;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,5 @@
 package com.canmogol.k8s;
 
-import com.canmogol.k8s.config.AppConfig;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;

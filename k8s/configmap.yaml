@@ -5,7 +5,8 @@ metadata:
   namespace: default
 data:
   application.yaml: |-
-    # Application Configurations
+    # THIS CONFIGURATION FILE WILL OVERRIDE THE INTERNAL "application.yaml" file. 
+    # Application Configurations 
     app:
 
       # Example Configurations

@@ -1,3 +1,8 @@
+# Note: If you are running in a Kubernetes environment where RBAC is enabled, 
+# you need to make sure that your pod has the right level of authorizations to access the K8s APIs or resources. 
+# To help you get started, a sample ServiceAccount and RoleBinding configuration is provided here. 
+# These configuration needs to be applied to your K8s cluster and the newly created ServiceAccount needs to be attached
+# to your pod spec. See 'application.yaml' file; serviceAccountName: config-reader
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
