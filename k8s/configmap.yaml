@@ -13,5 +13,5 @@ data:
       config:
         logLevel: info
         key-value-pairs:
-          key3: value4
-          key4: value4
+          key1: kubernetes-value1
+          key2: kubernetes-value2

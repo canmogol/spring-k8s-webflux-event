@@ -1,5 +1,0 @@
-FROM centos:7
-ARG OPTIONS
-EXPOSE 8080
-COPY target/spring-k8s /spring-k8s
-ENTRYPOINT /spring-k8s ${OPTIONS}
