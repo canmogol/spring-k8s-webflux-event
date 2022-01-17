@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-k8s-config
+  namespace: default
+data:
+  application.yaml: |-
+    # Application Configurations
+    app:
+
+      # Example Configurations
+      config:
+        logLevel: info
+        key-value-pairs:
+          key3: value4
+          key4: value4
