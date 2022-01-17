@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-alpine
 ARG OPTIONS
 WORKDIR /
 COPY target/*.jar app.jar
