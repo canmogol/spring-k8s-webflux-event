@@ -1,0 +1,9 @@
+# Application Configurations
+app:
+
+  # Example Configurations
+  config:
+    logLevel: info
+    key-value-pairs:
+      key1: value1
+      key2: value2
