@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-k8s
+  cloud:
+    kubernetes:
+      reload:
+        enabled: true
+        mode: event
+#        mode: polling # If the Kube-proxy does not allow WebSocket connections, we can use 'polling' instead, see the 'api/v1/namespaces/default/configmaps/k8s-live-reload-configmap' endpoint on your cluster.
+#        period: 5000
+      config:
+        sources:
+          - name: spring-k8s-config
